@@ -1,0 +1,108 @@
+
+
+:root {
+    --primary-color: #2289FF;
+    --secondary-color: #314862;
+}
+
+.Apartment{
+    position: relative;
+    top: 250px;
+   right: 100px;
+    /* width: 1440px; */
+height: 653px;
+
+/* top: 1056px; */
+
+    background-color:  #FBFBFB;
+    height: 330px;
+
+
+}
+
+.about-img {
+    position: relative;
+    bottom: 100px;
+    left: 80px;
+
+    display: flex;
+}
+
+.about-img-1 {
+    height: 250px;
+
+    position: relative;
+    top: 150px;
+    bottom: 500px;
+}
+
+.about-img-2 {
+height: 250px;
+    
+position: relative;
+
+/* right: 270px ; */
+bottom: 120px;
+left: 15px;
+
+
+
+}
+
+.home-btn-learn{
+    background-color: #2289FF;
+border-radius: 20px;
+
+border: 0;
+color: white;
+padding: 5px;
+width: 100px;
+
+
+}
+
+.about-section-2 {
+    position: relative;
+    top: 120px;
+    /* left: 80px; */
+    right: 120px
+}
+
+.about-heading{
+    font-size: 12px;
+    color: var(--primary-color);
+}
+
+.about-paragraph-1 {
+    width: 300px;
+line-height: 25px;
+color: #193F6A;
+word-spacing: 2px;
+}
+
+.about-paragraph-2 {
+    font-size: 10px;
+    width: 250px;
+    color: var(--secondary-color);
+}
+
+.about-paragraph-3 {
+    font-size: 10px;
+width: 150px;
+
+}
+
+.about-btn-learn-more {
+ background-color: #2289FF;
+border-radius: 20px;
+
+border: 0;
+color: white;
+padding: 8px;
+width: 100px;
+
+position: relative;
+top: 5px;
+
+}
+
