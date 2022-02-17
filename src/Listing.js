@@ -7,7 +7,7 @@ const data =[
   {id: 1,
     title: "map",
     subtitle: "brown",
-    address: "<span className="street">6, Oduduwa Crescent, Ikeja GRA</span>    ",
+    address: "kirikiri",
     Card:  <img className="house-1 listing-img" src="/images/house-1.png" alt="House" />
   },
 
