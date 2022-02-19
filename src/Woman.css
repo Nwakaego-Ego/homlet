@@ -1,0 +1,143 @@
+
+
+.Woman{
+    position: relative;
+    top: 320px;
+    left: 200px;
+
+}
+
+
+
+.woman-h3 {
+    position: relative;
+    top: 5px;
+    left: 240px;
+
+    font-size: 20px;
+}
+
+.woman-main-section {
+    position: relative;
+    bottom: 130px;
+    left: 450px;
+    /* right: 100px; */
+}
+
+.woman-section-1 {
+    position: relative;
+    bottom: 320px;
+    right: 470px;
+}
+
+.woman-image{
+    position: relative;
+    bottom: 5px;  
+}
+
+
+.woman-img-section-1 {
+    height: 250px;
+    /* width: 590px;
+    height: 457px; */
+        
+    position: relative;
+    top: 285px;
+    bottom: 500px;
+    
+    left: 340px;
+    
+    }
+    
+    .woman-img-section-2 {
+    height: 250px;
+        
+    position: relative;
+    top: 270px; 
+    
+    }
+
+    
+
+    .Woman-section-2 {
+        position: relative;
+        bottom: 125px; 
+        right: 210px;
+
+        width: 342px;
+
+       /* border: 1px solid red;  */
+       background: #FFFFFF;
+        box-shadow: 0px 4px 10px rgba(34, 137, 255, 0.11);
+        border-radius: 10px;
+    }
+
+    .woman-section-3 {
+        position: relative;
+        bottom: 125px; 
+        right: 210px;
+
+        width: 300px;
+
+       /* border: 1px solid red;  */
+       background: #FFFFFF;
+
+    }
+
+    .woman-section-4 {
+        position: relative;
+        bottom: 130px; 
+        right: 210px;
+
+        width: 300px;
+
+       /* border: 1px solid red;  */
+       background: #FFFFFF;
+      
+    }
+
+   
+
+    .woman-img-face{
+        position: relative;
+        top: 35px; 
+        bottom: 530px;
+        right: 17px;
+      
+        border-radius: 50px;
+
+        width: 12px;
+        height: 12px;
+    }
+
+    .woman-img-face-circle{
+        position: relative;
+        top: 40px; 
+
+        width: 22px;
+        height: 20px;
+        /* bottom: 600px; */
+    }
+
+    .woman-register{
+        position: relative;
+        left: 35px;
+
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+    .woman-create-account{
+        position: relative;
+        left: 35px;  
+        
+        font-size: 10px;
+    }
+
+    .woman-register-section{
+        position: relative;
+        bottom: 13px;
+        left: 15px; 
+
+        line-height: 10px;
+    }

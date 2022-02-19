@@ -1,7 +1,7 @@
 import React from "react";
 import './Listing.css';
 import Card from "./Card"
-import List from "./List"
+
 
 const data =[
   {id: 1,
@@ -37,8 +37,8 @@ export default function Listing () {
                     <img className="address"  src="/images/Address.png" alt="Address" />   
                </div>
                    <span className="street">6, Oduduwa Crescent, Ikeja GRA</span>           
-              {data.map(item=><Card title={item.title} subtitle={item.subtitle} address={item.address} Card={item.Card}/>) }
-              <List/>
+              {/* {data.map(item=><Card title={item.title} subtitle={item.subtitle} address={item.address} Card={item.Card}/>) } */}
+         
         </div>
     )
 

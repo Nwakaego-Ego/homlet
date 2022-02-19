@@ -3,6 +3,8 @@ import Button from "./Button"
 import About from "./About"
 import Locations from "./Locations"
 import Listing from "./Listing"
+import PropertyOwner from "./PropertyOwner"
+import Woman from "./Woman"
 import './Header.css';
 
 export default function Header() {
@@ -33,7 +35,8 @@ export default function Header() {
              <About/>
              <Locations/>
              <Listing/>
-           
+            <PropertyOwner/>
+            <Woman/>
          </div>
 
     )
