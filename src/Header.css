@@ -1,146 +1,148 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 :root {
-    --primary-color: #2289FF;
-    --secondary-color: #314862;
+  --primary-color: #2289ff;
+  --secondary-color: #314862;
 }
 
 .Header {
-    margin-left: 100px;
-    font-family: 'Montserrat', sans-serif;
-    width: 63%;
-    color: var(--secondary-color);
+  margin-left: 100px;
+  font-family: "Montserrat", sans-serif;
+  width: 63%;
+  color: var(--secondary-color);
 }
 
 .header-1 {
-position: relative;
-/* width: 93px; */
-/* height: 29px; */
-/* left: 100px; */
-top: 38px;
+  position: relative;
+  /* width: 93px; */
+  /* height: 29px; */
+  /* left: 100px; */
+  top: 38px;
 
-font-family: 'Montserrat', sans-serif;
-/* font-style: normal; */
-font-weight: 600;
-font-size: 24px;
-line-height: 29px;
+  font-family: "Montserrat", sans-serif;
+  /* font-style: normal; */
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
 
-color: #000000;
-
+  color: #000000;
 }
 
 .primary-color {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .header-2 {
-position: absolute;
-/* width: 172px;
+  position: absolute;
+  /* width: 172px;
 height: 20px; */
-left: 550px;
-top: 45px;
+  left: 550px;
+  top: 45px;
 
-font-weight: normal;
-font-size: 16px;
-line-height: 20px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 
-color: #314862;
+  color: #314862;
 }
 
 .btn-login {
- position: relative;
-left: 40%;
-right: 0%;
-top: 0%;
-bottom: 0%;
+  position: relative;
+  left: 40%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
 
-padding: 5px;
-width: 70px;
+  padding: 5px;
+  width: 70px;
 
-background-color: #2289FF;
-border-radius: 20px;
+  background-color: #2289ff;
+  border-radius: 20px;
 
-border: 0;
-color: white;
+  border: 0;
+  color: white;
 }
 
 .paragraph-1 {
-position: relative;
+  position: relative;
 
-width: 200px;
-/* height: 117px; */
-/* left: 99px; */
-top: 204px;
+  width: 200px;
+  /* height: 117px; */
+  /* left: 99px; */
+  top: 204px;
 
-font-weight: 600;
-font-size: 17px;
-line-height: 25px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 25px;
 
-color: #193F6A;
-
+  color: #193f6a;
 }
 
-.paragraph-2{
-position: relative;
-top: 200px;
+.paragraph-2 {
+  position: relative;
+  top: 200px;
 
-width: 200px;
-font-weight: normal;
-font-size: 10px;
+  width: 200px;
+  font-weight: normal;
+  font-size: 10px;
 
-color: #314862;
+  color: #314862;
 }
 
 .btn-learn-more {
-background-color: #2289FF;
-border-radius: 20px;
+  background-color: #2289ff;
+  border-radius: 20px;
 
-border: 0;
-color: white;
-padding: 8px;
-width: 100px;
+  border: 0;
+  color: white;
+  padding: 8px;
+  width: 100px;
 
-position: relative;
-top: 210px;
-
+  position: relative;
+  top: 210px;
 }
 
 .img-section {
-    position: relative;
-    bottom: 180px;
-    right: 150px;
+  position: relative;
+  bottom: 180px;
+  right: 150px;
 }
 
 .host {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .paragraph-section {
-    position: relative;
-    bottom: 70px
+  position: relative;
+  bottom: 70px;
 }
 
 .img-1 {
-height: 250px;
-/* width: 590px;
+  height: 250px;
+  /* width: 590px;
 height: 457px; */
-    
-position: relative;
-top: 285px;
-bottom: 500px;
 
-left: 340px;
+  position: relative;
+  top: 285px;
+  bottom: 500px;
 
+  left: 340px;
 }
 
 .img-2 {
-height: 250px;
-    
-position: relative;
-top: 270px; 
+  height: 250px;
 
+  position: relative;
+  top: 270px;
 }
 
 .header-paragraph {
-    display: flex;
+  display: flex;
+}
+
+.card-container {
+  display: flex;
+  margin: 200px 0;
+  justify-content: space-between;
+  gap: 50px;
 }
