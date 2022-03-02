@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.main{
+margin-top: 30px;
+margin-right: 100px;
+
+    background: #2289FF;
+    color: white;
+
+    width: 147%;
+    height: 314px;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.flex {
+    display: flex;
+}
+
+ .googleStore  {
+    width: 200px;
+    height: 50px;
+
+    background: #193F6A;
+
+    margin: 0 10px 0 0 ;
+    border-radius: 10px;
+}
+
+
+
+ .downloadGoogle {
+    position: relative;
+    left: 55px;
+    bottom: 35px; 
+}
+
+
+
+
+.googleGet {
+    font-size: 10px;
+}
+
+
+
+.pseudo  {
+
+    position: relative;
+    left: 150px;
+    top: 20px;
+}
+
+.mainBall{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 10vw;
+
+
+}  
+
+.ball {
+    width: 10px;
+    height: 10px;
+
+    background-color: white;
+
+    border-radius: 15px;
+
+    margin: 0 10px 0 0 ;
+}
+
+.ball2 {
+  position: relative;
+  top: 30px;
+
+}
+
+.appleLogo{
+    border: 1px solid red;
+
+    /* width: 150px; */
+    font-size: 35px;
+
+    position: relative;
+    top: 55px;
+    left: 10px;
+}
+
+
+
+

@@ -5,6 +5,8 @@ import Locations from "./Locations"
 import Listing from "./Listing"
 import PropertyOwner from "./PropertyOwner"
 import Woman from "./Woman"
+import Card from "./Card"
+import Download from "./Download"
 import './Header.css';
 
 export default function Header() {
@@ -37,6 +39,8 @@ export default function Header() {
              <Listing/>
             <PropertyOwner/>
             <Woman/>
+            <Card/>
+            <Download/>
          </div>
 
     )
