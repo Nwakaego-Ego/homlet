@@ -13,10 +13,10 @@ export default function Locations () {
                      <img className="img-location " src="/images/Mokola.png" alt="Location-Mokola" />               
              </div>
              <div className="locations-venue">
-                 <p>Ikeja</p>
-                 <p>Mokola, Ibadan</p>
-                 <p className="ikoyi">Ikoyi</p>
-                 <p className="amadi">Trans Amadi Gardens</p>
+                 <p className="venue">Ikeja</p>
+                 <p className="venue">Mokola, Ibadan</p>
+                 <p className="ikoyi venue">Ikoyi</p>
+                 <p className="amadi venue">Trans Amadi Gardens</p>
              </div>
         </div>
     )

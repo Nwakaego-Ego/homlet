@@ -3,13 +3,13 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import { faTrash } from "@fortawesome/free-solid-svg-icons"
 import { FaApple} from "react-icons/fa"
 import { MdGooglePlayStore} from "react-icons/md"
-import './Download.css';
+import './Footer.css';
 
-export default function Download () {
+export default function Footer () {
     return (
         <div className="main">
          <div className="">
-           <div className="mainBall">
+           <div className="firstBall">
              <div>
                <img className="ball" src="/images/circle.png" alt="ball" />
                <img className="ball" src="/images/circle.png" alt="ball" />
@@ -31,7 +31,9 @@ export default function Download () {
                  <p>Download the Homelet App !</p>
                   <div className="flex">
                   <div className="appleStore">
-                     
+                  <FaApple className="appleLogo" />
+                     <div className="downloadGoogle googleGet">Download on the</div>
+                     <div className="downloadGoogle googlePlay">App store</div>
                    </div>
                    <div className="googleStore">
                      {/* <FontAwesomeIcon icon={faTrash  }></FontAwesomeIcon> */}
@@ -42,6 +44,7 @@ export default function Download () {
                   </div>
                   
             </div> 
+            <div className="secondBall">
             <div>
                <img className="ball ball2" src="/images/circle.png" alt="ball" />
                <img className="ball ball2" src="/images/circle.png" alt="ball" />
@@ -56,6 +59,8 @@ export default function Download () {
                <img className="ball ball2" src="/images/circle.png" alt="ball" />
               <img className="ball ball2" src="/images/circle.png" alt="ball" />
              </div> 
+            </div>
+            
         </div>
     )
 }

@@ -2,7 +2,7 @@
 
 .Woman{
     position: relative;
-    top: 320px;
+    /* top: 320px; */
     left: 200px;
 
 }
@@ -12,48 +12,59 @@
 .woman-h3 {
     position: relative;
     top: 5px;
-    left: 240px;
+    left: 540px;
 
     font-size: 20px;
 }
 
 .woman-main-section {
     position: relative;
-    bottom: 130px;
-    left: 450px;
+    bottom: 780px;
+    left: 750px;
     /* right: 100px; */
 }
 
 .woman-section-1 {
     position: relative;
     bottom: 320px;
-    right: 470px;
+    right: 570px;
+
+
 }
 
 .woman-image{
     position: relative;
     bottom: 5px;  
+
+    
 }
 
 
 .woman-img-section-1 {
-    height: 250px;
-    /* width: 590px;
-    height: 457px; */
+   
         
     position: relative;
     top: 285px;
     bottom: 500px;
     
     left: 340px;
+
+    height: 450px;
+   width: 590px;
+
     
     }
     
     .woman-img-section-2 {
-    height: 250px;
+   
         
     position: relative;
-    top: 270px; 
+    bottom: 200px; 
+    left: 370px;
+
+    height: 450px;
+   width: 590px;
+
     
     }
 

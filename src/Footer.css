@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.main{
+
+
+position: relative;
+bottom: 60px;
+right: 100px;
+/* left: 150px; */
+
+    background: #2289FF;
+    color: white;
+
+    width: 247%;
+    height: 300px;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 20px;
+    word-spacing: 3px;
+}
+
+p {
+    font-size: 25px;
+    line-height: 20px;
+    word-spacing: 3px;  
+}
+
+.flex {
+    display: flex;
+}
+
+ .googleStore  {
+    width: 210px;
+    height: 50px;
+
+    background: #193F6A;
+
+    margin: 0 10px 0 0 ;
+    border-radius: 10px;
+}
+
+.appleStore {
+    width: 200px;
+    height: 50px;
+
+    background: #193F6A;
+
+    margin: 0 10px 0 0 ;
+    border-radius: 10px;  
+}
+ .downloadGoogle {
+    position: relative;
+    left: 55px;
+    bottom: 35px; 
+    
+}
+
+.googlePlay{
+    /* border:  1px solid blue; */
+
+    font-size: 25px;
+}
+
+.googleGet {
+    font-size: 10px;
+}
+
+.pseudo  {
+
+    position: relative;
+    left: 90px;
+    top: 20px;
+}
+
+.firstBall{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    gap: 15px;
+    width: 20vw;
+
+    position: relative;
+    left: 58%; 
+} 
+
+.secondBall {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    gap: 15px;
+
+}
+
+.ball {
+    width: 12px;
+    height: 12px;
+
+    background-color: white;
+
+    border-radius: 15px;
+
+
+    margin: 0 15px 0 0px ;
+
+}
+
+
+.appleLogo{
+    font-size: 40px;
+
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+
+
+
